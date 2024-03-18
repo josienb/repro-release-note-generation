@@ -1,0 +1,23 @@
+changelog:
+  categories:
+    - title: Feature
+      labels:
+        - feature
+    - title: Fix
+      labels:
+        - bugfix
+    - title: Internal Changes
+      labels:
+        - '*'
+      exclude:
+        labels:
+          - bugfix
+          - dependencies
+          - feature
+          - security
+    - title: Dependencies
+      labels:
+        - dependencies
+    - title: Security
+      labels:
+        - security
